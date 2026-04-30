@@ -62,12 +62,18 @@ You've seen the demos. You've bookmarked 47 tabs. Now it's time to ship somethin
 | [Pet Name Gen](https://github.com/openai/openai-python) | Vision API + Naming LLM | Doggo + confused face → perfect name |
 | [Dream Interpreter](https://github.com/anthropics/anthropic-sdk-python) | Claude + Psychology | Freud was on something. Now AI too |
 | [Tattoo Designer](https://github.com/Stability-AI/StableDiffusion) | Stable Diffusion | See it before you ink it |
+| [AI Bartender](https://github.com/openai/openai-python) | Cocktail LLM + Inventory | "I'm feeling adventurous" → perfect drink |
+| [Wallpaper Generator](https://github.com/Stability-AI/StableDiffusion) | SDXL + Prompt Chaining | Fresh vibes daily |
+| [Fitness Coach](https://github.com/langchain-ai/langchain) | Health LLM + Tracking | "I ate pizza" → recovery plan |
+| [AI Therapist](https://github.com/anthropics/anthropic-sdk-python) | Claude + CBT | 3am thoughts → structured insights |
+| [Meme Generator](https://github.com/Stability-AI/StableDiffusion) | DALL-E + Caption LLM | Viral content on autopilot |
 
 ---
 
 ## 🛠️ Ship Fast Templates
 
 ### Python
+
 ```bash
 # Chat in minutes
 pip install streamlit openai
@@ -88,13 +94,27 @@ python app.py
 | [FastAPI + LangChain](https://github.com/langchain-ai/langchain) | Actually production-ready |
 | [Gradio](https://github.com/gradio-app/gradio) | Pretty without frontend PhD |
 | [Chainlit](https://github.com/Chainlit/chainlit) | Python-native chat interfaces |
+| [Generative AI Template](https://github.com/honestsoul/generative_ai_project) | Structured, scalable AI projects |
+| [HeyNina Template](https://github.com/HeyNina101/generative_ai_project) | Production-ready with best practices |
+| [AI Project Template](https://github.com/Shekswess/ai-project-template) | MLOps, experiment tracking, IaC |
+| [Full-Stack AI Template](https://github.com/vstorm-co/full-stack-ai-agent-template) | FastAPI + Next.js + agents + RAG |
+| [Claude Starter Kit](https://github.com/aiminnovations/claude-starter-kit) | Claude Code configs, skills, agents |
 
 ### JavaScript/TypeScript
+
 | Template | Use When |
 |:--|:--|
 | [Next.js + Vercel AI](https://github.com/vercel/ai) | Streaming + SSR + "it just works" |
 | [LangChain.js](https://github.com/langchain-ai/langchainjs) | Same power, different language |
 | [React + Hugging Face](https://github.com/huggingface/huggingface.js) | When frontend devs judge you |
+| [AI SDK Reasoning Starter](https://github.com/vercel-labs/ai-sdk-reasoning-starter) | Next.js + reasoning models |
+| [Agent Starter](https://github.com/thorchh/agent-starter) | Production-ready with tool calling |
+| [Next AI Starter](https://github.com/kleneway/next-ai-starter) | Batteries-included for AI coding tools |
+| [AI SDK xAI Starter](https://github.com/vercel-labs/ai-sdk-starter-xai) | Next.js + xAI/Grok integration |
+| [Claude Starter Template](https://github.com/Smirnov-Labs/claude-starter-template) | Memory bank + skills marketplace |
+| [Easy Business AI](https://github.com/Shiinama/easy-business-ai) | Next.js 15 + idea validation |
+| [Cody Product Builder](https://github.com/ibuildwith-ai/cody-product-builder) | Guided workflow for non-devs |
+| [NextAI](https://github.com/ixahmedxi/nextai) | "I have an idea on Monday" |
 
 ### No-Code
 | Tool | Vibe |
@@ -117,6 +137,10 @@ python app.py
 | [Groq](https://console.groq.com) | Embarrassingly fast | Yes |
 | [Ollama](https://github.com/ollama/ollama) | Local. Your GPU has feelings too | Free |
 | [LM Studio](https://lmstudio.ai) | Ollama with a GUI | Free |
+| [xAI/Grok](https://x.ai) | Real-time X data | Yes |
+| [DeepSeek](https://www.deepseek.com) | Open models, cheap | Yes |
+| [Cohere](https://cohere.com) | Enterprise RAG focus | Yes |
+| [Mistral](https://mistral.ai) | European, open weights | Yes |
 
 ### 🎨 Image Gen
 
@@ -126,6 +150,9 @@ python app.py
 | [Stable Diffusion](https://github.com/Stability-AI/StableDiffusion) | You control everything |
 | [FLUX](https://github.com/black-forest-labs/flux) | The new kid. Good at hands |
 | [Replicate](https://replicate.com) | Any model, any API |
+| [DALL-E 3](https://platform.openai.com/docs/guides/images) | OpenAI's best |
+| [Ideogram](https://ideogram.ai) | Text rendering king |
+| [Leonardo AI](https://leonardo.ai) | Game assets favorite |
 
 ### 🎙️ Audio
 
@@ -135,6 +162,9 @@ python app.py
 | [Whisper](https://platform.openai.com/docs/guides/speech-to-text) | Transcription that doesn't suck |
 | [Cartesia](https://cartesia.ai) | Talk to your code |
 | [Parakeet](https://github.com/rickyr123/nemo_parakeet) | Fast ASR. Underrated |
+| [Suno AI](https://suno.com) | Music generation. Scary good |
+| [Udio](https://udio.com) | AI music with vocals |
+| [RVC](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI) | Voice conversion |
 
 ### 🎬 Video
 
@@ -144,6 +174,8 @@ python app.py
 | [Pika](https://pika.art) | Text-to-video. Getting real |
 | [Hailuo](https://hailuoai.video) | Free tier available |
 | [KLING](https://klingai.com) | The space moves fast |
+| [Sora](https://openai.com/sora) | OpenAI's video model |
+| [Luma Dream Machine](https://lumalabs.ai) | Fast video generation |
 
 ### 🔍 Search & Data
 
@@ -153,6 +185,9 @@ python app.py
 | [Exa](https://exa.ai) | Actually understands context |
 | [Tavily](https://tavily.com) | RAG-optimized |
 | [Crawl4AI](https://github.com/imartinez/crawl4ai) | AI-friendly crawler |
+| [Perplexity API](https://docs.perplexity.ai) | Search + synthesis |
+| [Brave Search API](https://brave.com/search/api/) | Privacy-first search |
+| [Firecrawl](https://firecrawl.dev) | Turn websites into LLM-ready data |
 
 ### 📊 Embeddings & Vector
 
@@ -163,6 +198,9 @@ python app.py
 | [Qdrant](https://github.com/qdrant/qdrant) | Rust. Fast and pretty |
 | [Pinecone](https://www.pinecone.io) | Managed. No infra headaches |
 | [Chroma](https://github.com/chroma-core/chroma) | Quick prototypes |
+| [Milvus](https://github.com/milvus-io/milvus) | Production vector database |
+| [Weaviate](https://github.com/weaviate/weaviate) | Cloud-native vector search |
+| [pgvector](https://github.com/pgvector/pgvector) | Vector search in Postgres |
 
 ---
 
@@ -175,6 +213,9 @@ python app.py
 | [Open UI](https://github.com/wandelbotsai/openui) | Describe → get code. Magic? |
 | [LibreChat](https://github.com/danny-avila/LibreChat) | Self-hosted. No ads. |
 | [Textual](https://github.com/Textualize/textual) | Beautiful terminals |
+| [AI Elements](https://github.com/elemu/ai-elements) | Pre-built AI UI components |
+| [shadcn/ui](https://ui.shadcn.com) | Beautiful, accessible components |
+| [Radix UI](https://www.radix-ui.com) | Unstyled, accessible primitives |
 
 ---
 
@@ -195,19 +236,28 @@ python app.py
 | [Render](https://render.com) | One dashboard to rule |
 
 ### ML Infrastructure
+
 | Platform | Vibe |
 |:--|:--|
 | [Modal](https://modal.com) | Python-first. Data scientist approved |
 | [Beam](https://beam.cloud) | Serverless GPUs. Pay per second |
 | [Baseten](https://baseten.com) | Model serving without DevOps nightmares |
+| [Replicate](https://replicate.com) | Deploy any model, any framework |
+| [Hugging Face Inference](https://huggingface.co/inference-api) | Managed inference for HF models |
+| [Together AI](https://www.together.ai) | Open-source model hosting |
 
 ### Data
+
 | Platform | Vibe |
 |:--|:--|
 | [Supabase](https://supabase.com) | Postgres + auth + realtime |
 | [PlanetScale](https://planetscale.com) | MySQL with branching |
 | [Neon](https://neon.tech) | Serverless Postgres |
 | [Upstash](https://upstash.com) | Redis + Kafka. Pay as you go |
+| [MongoDB Atlas](https://www.mongodb.com/atlas) | Managed MongoDB |
+| [Firebase](https://firebase.google.com) | Google's BaaS |
+| [Turso](https://turso.tech) | Edge SQLite |
+| [Dgraph](https://dgraph.io) | Native GraphQL database |
 
 ---
 
@@ -223,44 +273,64 @@ python app.py
 - **Affiliate** → "I use this tool" → money
 
 ### Payment Stack
+
 | Provider | Vibe |
 |:--|:--|
 | [Stripe](https://stripe.com) | The default. Reliable. |
 | [Lemon Squeezy](https://www.lemonsqueezy.com) | Digital products. Less paperwork |
 | [Paddle](https://paddle.com) | They handle tax. You handle shipping |
 | [Gumroad](https://gumroad.com) | Creator economy's favorite |
+| [Polar](https://polar.sh) | Open-source friendly |
+| [PayPal](https://www.paypal.com) | Everyone has it |
+| [Coinbase Commerce](https://commerce.coinbase.com) | Crypto payments |
 
 ### Launch Platforms
+
 | Platform | Vibe |
 |:--|:--|
 | [Product Hunt](https://producthunt.com) | The OG launch platform |
 | [Indie Hackers](https://www.indiehackers.com) | Revenue shares. Transparency vibes |
 | [Showwcase](https://showwcase.com) | Build in public |
 | [Hacker News](https://news.ycombinator.com) | Show HN. High risk. High reward. |
+| [Reddit](https://reddit.com/r/SideProject) | r/SideProject community |
+| [Betalist](https://betalist.com) | Get your first 100 users |
+| [Launch HN](https://launchhq.com) | Dedicated launch platform |
 
 ---
 
 ## 📚 Learn
 
 ### Courses
+
 | Course | Vibe |
 |:--|:--|
 | [DeepLearning.AI](https://www.deeplearning.ai) | Stanford professor energy |
 | [Fast.ai](https://fast.ai) | "You'll revolutionize the field" |
 | [LangChain Academy](https://academy.langchain.com) | Build LLM apps. Practical path |
+| [Andrej Karpathy - Zero to Hero](https://karpathy.ai/zero-to-hero.html) | Neural networks from scratch |
+| [3Blue1Brown - Neural Networks](https://www.youtube.com/playlist?list=PLZHQObOW2ZDNtVEmMoSsKdQB1T3Zl2p) | Visual intuition |
+| [Sentdex - AI/ML](https://www.youtube.com/user/sentdex) | Practical Python ML |
 
 ### Books
+
 | Book | Vibe |
 |:--|:--|
 | [Build an LLM](https://www.manning.com/books/build-a-large-language-model-from-scratch) | Zero → working LLM. Respect. |
 | [Practical AI](https://www.manning.com/books/practical-ai-with-swift) | Apple ecosystem people |
+| [Hands-On ML](https://www.oreilly.com/library/view/hands-on-machine-learning/9781098125967/) | O'Reilly classic |
+| [Designing ML Systems](https://www.oreilly.com/library/view/designing-machine-learning/9781098107963/) | Production focus |
+| [AI Engineering](https://www.oreilly.com/library/view/ai-engineering/9781098162757/) | Building AI apps |
 
 ### Newsletters
+
 | Newsletter | Vibe |
 |:--|:--|
 | [The Batch](https://www.deeplearning.ai/the-batch) | Weekly. Curated. Not overwhelming |
 | [Last Week in AI](https://lastweekin.ai) | Digestible. "What did I miss?" |
 | [TLDR AI](https://tldr.tech/ai) | Daily. Short. Works. |
+| [Superhuman AI](https://www.superhuman.ai/newsletter) | AI tools + workflows |
+| [The Rundown AI](https://www.therundown.ai) | Daily AI news |
+| [AI Breakfast](https://aibreakfast.tilissubscribe.com) | Bite-sized AI updates |
 
 ---
 
@@ -275,19 +345,29 @@ python app.py
 | [Lovable](https://lovable.dev) | Describe → app. The future. |
 
 ### Open Source Legends
+
 | Project | Stars | Vibe |
 |:--|:--|:--|
 | [Open Interpreter](https://github.com/KillianLucas/open-interpreter) | 15K+ | Terminal agent. Wild. |
-| [Jan](https://github.com/janhq/jan) | 20K+ | Local ChatGPT. Privacy |
+| [Jan](https://github.com/janhq/jan) | 20K+ | Local ChatGPT. Privacy. |
 | [Open WebUI](https://github.com/open-webui/open-webui) | 35K+ | Self-hosted. Forever. |
 | [Meetily](https://github.com/Zackriya-Solutions/meetily) | 10K+ | Privacy-first. 100% local. |
+| [Aider](https://github.com/paul-gauthier/aider) | 25K+ | AI pair programming |
+| [Floop](https://github.com/flowiseai/flowise) | 30K+ | Visual LLM builder |
+| [Dify](https://github.com/langgenius/dify) | 50K+ | Workflow + agents |
+| [Hugging Face Transformers](https://github.com/huggingface/transformers) | 140K+ | The OG library |
 
 ### Boilerplates
+
 | Template | Vibe |
 |:--|:--|
 | [Ship Fast](https://shipfa.st) | Next.js + AI SaaS. Ship faster. |
 | [NextAI](https://github.com/ixahmedxi/nextai) | "I have an idea on Monday" |
 | [Vercel Templates](https://vercel.com/templates) | Official. Curated. Works. |
+| [ShipBlitz](https://shipblitz.com) | Next.js SaaS boilerplate |
+| [Makerkit](https://makerkit.dev) | Production-ready SaaS |
+| [SaaS Pegasus](https://www.saaspegasus.com) | Django + Stripe + AI |
+| [Bullet Train](https://bullettrain.io) | Rails SaaS framework |
 
 ---
 
