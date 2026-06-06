@@ -18,7 +18,11 @@ You've seen the demos. You've bookmarked 47 tabs. Now it's time to ship somethin
 | What It Does | Stack | Why It's Cool |
 |:--|:--|:--|
 | [AI Code Reviewer](https://github.com/Codium-ai/pr-agent) | GitHub Actions + LLM | Catches bugs before users do |
+| [Sweep](https://github.com/sweepai/sweep) | Python + LLM | Junior dev for your repo. Turns issues into PRs |
+| [Continue](https://github.com/continuedev/continue) | VS Code + LLM | autopilot for your IDE |
+| [C3](https://github.com/ijsmith/ctrl-code) | CLI Model Context | Multi-model playground, terminal-first |
 | [Commit Message Gen](https://github.com/Codium-ai/pr-agent) | Conventional Commits + LLM | "fix stuff" → actual sentences |
+| [Aider](https://github.com/paul-gauthier/aider) | Python + LLM | Pair programmer in your terminal |
 | [README Writer](https://github.com/run-llama/llama_index) | LlamaIndex + GPT | Your code deserves better docs |
 | [SQL Builder](https://github.com/langchain-ai/langchain) | LangChain + SQL | Natural language → actual queries |
 | [Test Generator](https://github.com/Codium-ai/pr-agent) | LLM + Pytest | 80% → 95% coverage while you sleep |
@@ -29,8 +33,10 @@ You've seen the demos. You've bookmarked 47 tabs. Now it's time to ship somethin
 |:--|:--|:--|
 | [Meeting Summarizer](https://github.com/Zackriya-Solutions/meetily) | Rust + Whisper + Ollama | 100% local. Boss's hot takes stay private |
 | [Newsletter Generator](https://github.com/Aparnap2/newsletter-agent) | LangGraph + Crawl4AI + Gmail | For "I'll write it someday" people |
+| [Podcast Reels Generator](https://github.com/suno-ai/bark) | Bark + FFmpeg | Full podcast → viral clips |
 | [Tweet → Newsletter](https://github.com/Arize-ai/twitter-to-newsletter) | Twitter API + Claude | Turn engagement into subscribers |
 | [Podcast Clipper](https://github.com/codeperfectplus/transmeet) | Whisper + Groq | "That smart part" → ready to post |
+| [Blog Generator](https://github.com/Anthropic/claude-cookbooks) | Claude + RAG | Internal docs → readable blog |
 | [Document Q&A](https://github.com/run-llama/llama_index) | LlamaIndex + RAG | Stop CMD+F'ing PDFs |
 
 ### ⚡ Productivity
@@ -39,7 +45,10 @@ You've seen the demos. You've bookmarked 47 tabs. Now it's time to ship somethin
 |:--|:--|:--|
 | [Email Assistant](https://github.com/nicknochnack/EmailAssistantLangchain) | Gmail API + LangChain | "Reply all" without the regret |
 | [Calendar Scheduler](https://github.com/nicknochnack/CalendarAgent) | Google Calendar + LLM | "Find a time" → magic happens |
+| [Invoice Extractor](https://github.com/Anthropic/claude-cookbooks) | Claude + OCR | Screenshot → neat row |
+| [Study Flashcards](https://github.com/run-llama/llama_index) | LLM + Anki Export | Notes → spaced repetition |
 | [Meeting Intelligence](https://github.com/FutureSpeakAI/meeting-intelligence) | State machine + LLM | Meeting → structured notes. Zero effort |
+| [Knowledge Graph Builder](https://github.com/langchain-ai/langgraph) | Graph DB + LLM | Notes → connected graph |
 | [Task Organizer](https://github.com/langchain-ai/langgraph) | LangGraph + Tasks | Brain dump → organized todos |
 | [Travel Planner](https://github.com/langchain-ai/langgraph) | LangChain + Search | "Portugal but I don't plan" → full itinerary |
 
@@ -48,16 +57,24 @@ You've seen the demos. You've bookmarked 47 tabs. Now it's time to ship somethin
 | What It Does | Stack | Why It's Cool |
 |:--|:--|:--|
 | [Lead Qualifier](https://github.com/langchain-ai/langchain) | Form API + Scoring LLM | Tire-kickers → actual buyers |
+| [Pitch Deck Generator](https://github.com/Anthropic/claude-cookbooks) | Claude + Template | Idea → investor-ready PDF |
+| [Cold Email Writer](https://github.com/langchain-ai/langchain) | Personalization LLM | "Unsub" → actually replied |
+| [Review Analyzer](https://github.com/langchain-ai/langchain) | Sentiment LLM + CSV | 1000 reviews → real insights |
+| [Social Media Analyzer](https://github.com/n8n-io/n8n) | LLM + APIs | Brand mentions → mood radar |
+| [Customer Support Bot](https://github.com/langchain-ai/langchain) | Chatflow + KB | FAQ that actually learns |
 | [Competitor Monitor](https://github.com/n8n-io/n8n) | n8n + Webhooks | Price drop → Slack ping |
-| [Ad Copy Generator](https://github.com/langchain-ai/langchain) | LLM + A/B Framework | 50 variations in 5 minutes |
-| [Social Scheduler](https://github.com/n8n-io/n8n) | n8n + Prediction | Post when engagement peaks |
 | [Contract Analyzer](https://github.com/PhilipsHinrichs/legal-ai-analyzer) | Doc parsing + Legal LLM | "They own my firstborn?" → caught |
+| [Ad Copy Generator](https://github.com/langchain-ai/langchain) | LLM + A/B Framework | 50 variations in 5 minutes |
 
 ### 🎮 Fun & Weird
 
 | What It Does | Stack | Why It's Cool |
 |:--|:--|:--|
 | [AI Dungeon Master](https://github.com/langchain-ai/langgraph) | LangGraph + TTRPG | D&D that never ends |
+| [AI Tarot Reader](https://github.com/anthropics/anthropic-sdk-python) | Claude + Storytelling | Existential crisis → cards |
+| [AI Artist](https://github.com/Stability-AI/StableDiffusion) | SDXL + Prompt Eng | Idea → gallery-ready art |
+| [AI Rapper](https://github.com/suno-ai/bark) | LLM + Vocals | Bars + beat. Zero talent |
+| [Lyrics Generator](https://github.com/suno-ai/bark) | Audio LLM + Vocals | Humming → finished song |
 | [Personal Chef](https://github.com/langchain-ai/langchain) | Recipe LLM + Images | Random fridge → actual food |
 | [Pet Name Gen](https://github.com/openai/openai-python) | Vision API + Naming LLM | Doggo + confused face → perfect name |
 | [Dream Interpreter](https://github.com/anthropics/anthropic-sdk-python) | Claude + Psychology | Freud was on something. Now AI too |
@@ -67,6 +84,7 @@ You've seen the demos. You've bookmarked 47 tabs. Now it's time to ship somethin
 | [Fitness Coach](https://github.com/langchain-ai/langchain) | Health LLM + Tracking | "I ate pizza" → recovery plan |
 | [AI Therapist](https://github.com/anthropics/anthropic-sdk-python) | Claude + CBT | 3am thoughts → structured insights |
 | [Meme Generator](https://github.com/Stability-AI/StableDiffusion) | DALL-E + Caption LLM | Viral content on autopilot |
+| [Instagram Caption Gen](https://github.com/langchain-ai/langchain) | Vision + Trend LLM | Post → perfect caption |
 
 ---
 
