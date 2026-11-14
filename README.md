@@ -349,6 +349,7 @@ python app.py
 | [Superhuman AI](https://www.superhuman.ai/newsletter) | AI tools + workflows |
 | [The Rundown AI](https://www.therundown.ai) | Daily AI news |
 | [AI Breakfast](https://aibreakfast.tilissubscribe.com) | Bite-sized AI updates |
+| [AIHOT Weekly](https://aihot.news/weekly) | Chinese-language weekly roundup of model releases, research, and AI industry news |
 
 ---
 
